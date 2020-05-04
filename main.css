@@ -3,23 +3,32 @@ body{
     margin-left: 2%;
     margin-right: 2%;
     font-family: "Rubik", sans-serif;
-    font-weight: 700;
+    font-weight: 300;
     min-width: 100vh;
     text-align: center;
+    /* background-color: rgb(254, 255, 187); */
+    color:white;
+    background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
 
 .di{
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 30px;
-  background-color: rgb(245, 245, 245);
+  margin-top: 30px;
+ background: transparent;
 }
+
+/* ------------------------------------------------------------------------ */
 
 .first-section {
     display: flex;
     width: 100%;
     height: 800px;
     margin: 0;
-    
   }
   .first-section-left-column {
     flex: 0 1 10%;
@@ -33,6 +42,8 @@ body{
   flex: 0 1 90%;
 }
 .first-section-center-one {
+  font-size: 23px;
+  margin-top: 10px;
   height: 50%;
 }
 .first-section-center-two {
@@ -45,6 +56,8 @@ body{
   flex: 0 1 10%;
 }
 
+/* ------------------------------------------------------------------------ */
+
 .second-section {
     display: flex;
     width: 100%;
@@ -52,10 +65,7 @@ body{
     margin: 0;
     align-items: center;
     justify-content: center;
-  
-    
   }
-
 
  .second-section-column-wrapper {
   flex: 0 1 90%;
@@ -64,10 +74,12 @@ body{
   height: 50%;
 }
 
+/* ------------------------------------------------------------------------ */
+
 .last-section {
   display: flex;
   width: 100%;
-  height: 800px;
+  height: 400px;
   margin: 0;
   justify-content: center;
 }
@@ -76,9 +88,11 @@ body{
 flex: 0 1 90%;
 }
 .last-section-center-one{
+  font-size: 23px;
 height: 50%;
 }
 .last-section-center-two {
+  font-size: 23px;
 height: 50%;
 }
 
