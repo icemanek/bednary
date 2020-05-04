@@ -1,1 +1,1 @@
-# bednary
+Prosta strona poświęcona sprzedazy działek
